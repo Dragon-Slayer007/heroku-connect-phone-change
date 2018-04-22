@@ -1,6 +1,6 @@
 # Heroku Connect Sample - Phone Change
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jamesward/heroku-connect-phone-change)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDragon-Slayer007%2Fheroku-connect-phone-change)
 
 # Local Dev
 

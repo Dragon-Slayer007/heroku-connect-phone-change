@@ -49,7 +49,7 @@
                             $("#lastName").val("");
                             $("#email").val("");
                             $("#phone").val("");
-                            $("#messageMessage").text("Record updated!");
+                            $("#messageMessage").text("Record GONE!");
                             $("#message").show();
                         },
                         error: function(err) {
@@ -67,16 +67,16 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">Contact Update</a>
+                <a class="navbar-brand" href="/">Contact Delete</a>
             </div>
         </div>
     </nav>
 
     <div class="container">
-        <form id="phoneChangerForm" action="/update" method="post" style="width: 400px">
+        <form id="phoneChangerForm" action="/delete" method="post" style="width: 400px">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Update Your Information</h3>
+                    <h3 class="panel-title">Delete a User *ALL INFO MUST BE EXACT*</h3>
                 </div>
                 <div class="panel-body">
                     <div class="form-group">
@@ -89,7 +89,7 @@
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="For verification of Your Account" required>
+                        <input type="email" class="form-control" id="email" placeholder="Email on The Account" required>
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone</label>
@@ -106,8 +106,8 @@
                         <span class="sr-only">Error:</span>
                         <span id="errorMessage"></span>
                     </div>
-                    <button type="submit" class="btn btn-primary">Update Contact</button>
-                    <h1><a href="/deleteData">Do you want to delete a contact instead? CLICK HERE</a></h1>
+                    <button type="submit" class="btn btn-primary">DELETE</button>
+                    <h1><a href="/index">Do you want to update/create a contact instead? CLICK HERE</a></h1>
                 </div>
             </div>
         </form>
